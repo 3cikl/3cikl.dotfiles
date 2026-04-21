@@ -21,3 +21,9 @@
 [alias]
   commit = commit -s
 
+[credential "https://github.com"]
+	helper = 
+	helper = !~/.local/share/mise/installs/gh/2.90.0/gh_2.90.0_linux_arm64/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !~/.local/share/mise/installs/gh/2.90.0/gh_2.90.0_linux_arm64/bin/gh auth git-credential
